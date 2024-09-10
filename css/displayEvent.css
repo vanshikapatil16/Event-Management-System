@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+	margin-top: 22px;
+}
+.heading {
+	font-size: 38px;
+	font-family: 'Zeyada', cursive;
+	font-weight: bold;
+	text-align: center;
+}
+.upper {
+	width: 500px;
+}
+
+article {
+	font-size: 17px;
+	background: #47d1d1;
+	padding-top: 5px;
+}
+
+.php {
+	
+}

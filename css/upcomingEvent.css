@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+.container {
+	text-align: center;
+	margin-top: 50px;
+}
+article {
+	font-size: 45px;
+	font-family: 'Zeyada', cursive;
+	font-weight: bold;
+	width: 40%;
+	margin-left: 350px;
+	border-bottom: 1px solid #000;
+}
+.contents {
+	background: #248f8f;
+	margin-top: 40px;
+	padding: 15px;
+	border-radius: 8px;
+	width: 45%;
+	margin-left: 310px;
+}
+.form {
+	display: block;
+	background: #47d1d1;
+	padding: 25px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+input[type=date],input[type=text] {
+	display: block;
+	outline: none;
+	border: none;
+	width: 300px;
+	height: 20px;
+	border-radius: 2px;
+	padding: 2px;
+	font-family: inherit;
+	margin-bottom: 10px;
+	margin-left: 110px;
+}
+input[type=text]:hover {
+	border: 1.5px solid #248f8f;
+}
+textarea {
+	display: block;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	padding: 2px;
+	height: 100px;
+	font-family: inherit;
+	margin: 20px;
+	margin-left: 110px;
+	margin-bottom: 30px;
+}
+textarea:hover {
+	border: 1.5px solid #248f8f;
+}
+input[type=submit] {
+	display: block;
+	outline: none;
+	border: none;
+	width: 45%;
+	margin: 0 20px;
+	height: 25px;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2px;
+	margin-left: 147px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	text-decoration: underline;
+	border: 1.5px solid #248f8f;
+}

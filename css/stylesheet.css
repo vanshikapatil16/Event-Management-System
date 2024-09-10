@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 45%;
+	max-height: 100vh;
+	margin-left: 345px;
+	background: #b3d9ff;
+	border-radius: 15px;
+}
+.header {
+	font-size: 19px;
+	font-family: 'Ubuntu', sans-serif;
+	background: #004d99;
+	padding-bottom: 15px;
+	width: 100%;
+	color: #fff;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom: 1.5px solid #fff;
+}
+.heading {
+	margin-top: 32px;
+	text-align: center;
+	padding-top: 20px;
+}
+.form {
+	padding: 10px;
+}
+.form_control {
+	text-align: center;
+}
+.icon {
+	background: #0080ff;
+	padding: 6px;
+	margin-top: 8px;
+	margin-bottom: 7px;
+	border-radius: 3px;
+}
+
+input[type=text], input[type=email],
+input[type=number], input[type=password] {
+	outline: none;
+	border: none;
+	width: 350px;
+	height: 29px;
+	margin: 2px 0;
+	border-radius: 3px;
+	padding: 7px;
+	font-family: inherit;
+}
+
+.submit {
+	font-size: 17px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	width: 280px;
+	background: #004d99;
+	outline: none;
+	border: none;
+	padding: 7px;
+	text-align: center;
+	margin-left: 137px;
+	margin-top: 20px;
+	color: #fff;
+	border-radius: 10px;
+}
+.submit:hover {
+	background: #00264d;
+	transition: .9s;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.footer {
+	text-align: center;
+	font-size: 16px;
+	padding: 5px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.login_pg, .reg_pg {
+	text-transform: none;
+	text-decoration: none;
+	color: blue;
+}
+.login_pg:hover, .reg_pg:hover {
+	color: #e62e00;
+	text-decoration: underline;
+}

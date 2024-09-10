@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.navbar, .ul {
+    display: inline-flex;
+    list-style: none;
+    font-weight: bold;
+}
+.nav {
+    padding: 0 30px;
+    padding-left: 40px;
+}
+.li {
+    font-size: 15px;
+    text-decoration: none;
+    background: #004d99;
+    padding: 8px 18px;
+    font-size: 22px;
+    color: #fff;
+}
+.logo {
+    padding-top: 13px;
+
+}
+.dbatu {
+    text-decoration: none;
+    font-size: 27px;
+    color: #000;
+    margin-left: 2px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    transition: .4s;
+    padding: 12px;
+    border: 1px solid #fff;
+    width: 140px;
+    text-align: center;
+    background: lightgreen;
+}
+.dbatu:hover {
+    color: red;
+}
+.ul {
+    
+}
+
+.logout_btn{
+    background-color: red;
+    padding: 7px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    width: 100px;
+    text-align: center;
+    left: 88%;
+    position: absolute;
+    top: 2%;
+}
+
+.logout_btn a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout_btn a:hover{
+    text-decoration: underline;
+}
+
+.center_content {
+    position: absolute;
+    margin-top: 40px;
+    top: 40%;
+    width: 340px;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    padding-right: 15px;
+    background: #f9f9f9;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+.square {
+    text-align: justify;
+}
+
+.img {
+    float: left;
+    width: 650px;
+    height: 400px;
+    border: 1px solid #000;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
